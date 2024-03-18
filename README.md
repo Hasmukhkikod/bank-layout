@@ -426,4 +426,432 @@
 </section>
  
 
-</body></html>
+</body>
+</html>
+
+
+css 
+
+
+
+
+
+
+*{
+    box-sizing:border-box ;
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+.head1{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: blue;
+    
+}    
+.section1{
+    background-color: blue;
+}
+.facebook{
+    
+    display: flex;
+   
+    justify-content: end;
+}
+.english a{
+    margin: 10px;
+    color: aliceblue
+}
+
+.facebook i{
+    margin: 10px;
+}
+.facebook button{
+   background-color: yellow; color: rgb(225, 182, 182);
+}
+.headcolor{
+    background-color: blue;
+}
+.comapnylogo img{
+  width: 40%;
+}
+.menu{
+    display: flex;
+    padding: 12px 00 00px 00 ;
+    background-color: aliceblue;
+   
+}
+.section2{
+    background-color: aliceblue;
+}
+.navbar ul{
+    display: flex;
+   justify-content: space-around;
+}
+.navbar li{
+    
+    justify-content: space-evenly;
+}
+.comapnylogo{
+    width: 30%;
+}
+.navbar{
+    width: 70%;
+}
+.banner img{
+    width: 100%;
+}
+.banner{
+    
+    position: relative; 
+ 
+  }   
+
+
+.bannertext{
+position: absolute;
+top: 10px;
+padding: 
+100px;
+font-size: 40px;
+margin-left: 50px;
+}
+
+.banner button{
+ width: 150px;
+ height: 50px;
+ margin: 10px;
+}
+
+.bannertext span{
+   color: rgb(254, 198, 57);
+}
+.bannertext button{
+   color: rgb(0, 35, 117);
+   background-color: rgb(254, 198, 57);
+} 
+
+.ourindustry{
+    display: flex;
+    justify-content: space-around;
+    padding:  10px 50px 50px 50px
+}   
+
+.logo img{
+width: 10%;
+}
+.logo{
+    text-align: center;
+    width: 40%;
+    border: 2px solid black  ;
+    padding: 40px;
+}    
+  .logo:hover{
+    background-color: blue;
+}
+.our span{
+   padding: 40px;
+    text-align: center;
+   margin-bottom: 2px;
+    display: flow;
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline;
+}
+.ourindustry p{
+    color: rgb(4, 4, 4);
+}
+.part3caption{
+letter-spacing: 01px;
+width: 40%;
+padding: 20px 20px 50px
+
+}
+.part3{
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: center;
+ 
+}
+.part3video{
+   
+width: 60%;
+
+padding: 20px 10px 50px;
+
+}
+.part3 video{
+    height: 290px;
+}
+
+.part3caption button{
+    padding: 10px;
+    margin: 10px;
+background-color: yellow;
+    margin-left: 0px;
+  width: 150px
+  
+}
+.part3{
+    background-image: url(../image/business-meeting-office\ \(1\).jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.qoute img{
+    width: 05%;
+  
+}
+.qoute{
+    text-align: center;
+    padding: 20px;
+}
+.happyclient{
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+.happyclient p{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+.clientphoto{
+    
+    display: flex;
+    justify-content: center
+}
+.clientphoto img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%
+}
+.formargin{
+ margin: 10px;
+}
+.centerphoto{
+    width: 6%;
+    height: 100px;
+    margin-top: -4px;
+}
+.client2 img{
+    height: 100px;
+}
+.star{
+   text-align: center;
+   
+    margin: 10px;
+}
+.star p{
+    margin: 10px;
+}
+.star strong{
+    margin: 10px;
+}
+.thheading{
+    text-align: center;
+    padding: 50px;
+}
+.thsectionimage{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.thimage img{
+    width: 25%;
+    padding: 20px;
+}
+.comment span{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: yellow;
+}
+.comment p{
+   font-size: 20px;
+   color: aliceblue;
+}
+.thewidth{
+ width: 22%;
+}
+.thheading{
+    background-image:url(../image/relax\ in\ office\ .jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+}
+.thsectionimage{
+    padding: 30px 50px 30px 50px;
+
+}
+.thheading span{
+    color:yellow;
+}
+.siximage img{
+width: 20%;
+}
+.parta{
+    display: flex;
+    justify-content: center;
+ 
+}
+.conspet{
+    padding: 40px;
+}
+.siximage{
+    padding: 20px 10px 20px 10px;
+}
+.conspet span{
+    color: yellow;
+  
+  
+}
+.conspet h3{
+    color: blue;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.news{
+    padding: 40px;
+    text-align: center;
+   margin-bottom: 2px;
+    display: flow;
+    font-size: 25px;
+    color: blue;
+  
+}
+.mapandform{
+    display: flex;
+}
+.form{
+    padding: 70px;
+    background-image: url(../image/on\ call\ office.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1px;
+}
+.form span{
+    color: yellow;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.form h2{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form p{
+    color: aliceblue;
+    line-height: 20px;
+}
+.bankimage img{
+width: 10%;
+}
+.bankimage{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px 30px 10px ;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px ;
+    background-color:  rgb(28, 88, 162);
+    color: rgb(28, 29, 30);
+}
+.navbar3{
+    margin-top: 30px;
+}
+.end1 i{
+    margin: 10PX;
+    color: aliceblue;
+}
+.end1 span{
+    color: aliceblue;
+}
+.end4 button{
+    width: 80%;
+    padding: 10px;
+    background-color: yellow;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+  ul :hover{
+    background-color: blue;
+  }
+  .end3 span{
+color: yellow;
+  }
+  .section4{
+  
+    background-color: aliceblue;
+  }
+
+  .section9{
+    background-color:  rgb(28, 88, 162);
+    color:white;
+  }
+
+
+.parta{
+    padding: 10px 10px 25px 10px;
+}
+.part3video iframe{
+    height: 310px;
+    width: 80%;
+}
+.part3caption p{
+    margin-top: 20px;
+    color: aliceblue;
+   
+}
+.ending{
+color: aliceblue;
+}
+.form th{
+    color: aliceblue;
+    width: 50%;
+    border: 1px white solid;
+    padding: 10px;
+    margin: 10px
+    
+}
+.form table{
+    margin-top: 20px;
+}
+.form h4{
+    margin-top: 20px;
+}
+.comment span {
+    color: black;
+}
+.comment p {
+    color: rgb(28, 88, 162);
+}
+.footer1{
+  width: 90%; 
+}
+.footer2{
+    width: 10%;
+    }
+.end2{
+    margin-bottom: 20px;
+}
+.end3 p{
+    margin-top: 10px;
+}
+
+
+
+
+
