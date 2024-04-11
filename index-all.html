@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Variation - using CSS </title>
+<style>
+  .image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; /* Three rows */
+
+
+
+    transition: 1s;
+
+  }
+
+  .main-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-image { /* Corrected selector */
+   width: 100%;
+    height: 50%;
+    position: absolute;
+    top: -60%;
+    left: 35;
+    z-index: 2; /* Ensure top image is above main image */
+    transform: rotate(35deg); 
+    animation-duration: 20s;
+
+
+    
+  }
+
+  .lower-image {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 37%;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-30deg);
+
+
+
+ 
+
+  }
+
+  .hover-image {
+    opacity: 0;
+  
+  }
+
+  .image-container:hover .hover-image {
+    opacity: 1;
+
+  
+
+    overflow: hidden;
+    transition: 1s;
+    z-index: 2;
+  }
+</style>
+</head>
+<body>
+
+<div class="image-container">
+    <img src="main-image.png" class="main-image" alt="Main Image">
+    <img src="top-image.png" class="hover-image top-image" alt="Top Image">
+    <img src="lower-image.png" class="hover-image lower-image" alt="Lower Image">
+  </div>  
+
+
+
+  
+
+
+</body>
+</html>
